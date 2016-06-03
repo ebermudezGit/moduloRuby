@@ -17,3 +17,4 @@ hash = {
   "strings":['mi nombre es ', 'Oscar ', 'y tengo']
 }
 
+puts hash.map{|key,value| key==:numeros ? value.inject{|n, sum| sum += n} : key==:arrays ? value.map{|aa| aa.inject{|n, sum| sum += n}} : value.join()}
