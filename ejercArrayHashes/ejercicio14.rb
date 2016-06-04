@@ -6,9 +6,9 @@ arrbufer = Array.new()
 
 3.times do |index|
 	puts "dame el par #{index+1}"
-	puts "dame primero"
+	print "dame primero:"
 	arrbufer<<gets.chomp.to_i
-	puts "dame Segundo"
+	print "dame Segundo:"
 	arrbufer<<gets.chomp.to_i
 
 	myResultado<<arrbufer
