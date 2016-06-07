@@ -21,8 +21,7 @@ myArray.each_with_index  do |value,index|
 	end
 end
 
-myResultado = Array.new
-3.times{myResultado<<[Random.rand(0..5),Random.rand(0..5)]}
+myResultado = Array.new(3,[rand(0..5),rand(0..5)])
 
 print "El arreglo aleatorio es #{myResultado}"
 puts 
