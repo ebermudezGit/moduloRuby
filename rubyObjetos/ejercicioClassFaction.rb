@@ -11,6 +11,12 @@ resultado.map do |elemento|
 end
 puts
 puts
-require
 
-
+#Clase Alumnos
+require './alumno'
+alumnos = [
+	Alumno.new([80,90,75],"Juan"),
+	Alumno.new([85,50,95],"Pepito"),
+	Alumno.new([80,90,100],"Cristoforo"),
+	Alumno.new([65,80,65],"Enriqueto")
+]
